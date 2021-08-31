@@ -2,7 +2,7 @@ export const products = [
     {
         id: 'product-1',
         name: 'Suction Holder for Sponges',
-        price: 6.96,
+        price: 19.99,
         image: './img/img1.png',
         description: [
             {
@@ -31,8 +31,8 @@ export const products = [
     {
         id: 'product-2',
         name: 'Baseball set for kids',
-        price: 29.99,
-        discount: 24.65,
+        price: 24.99,
+        discount: 14.99,
         image: './img/img2.png',
         description: [
             {
@@ -60,9 +60,96 @@ export const products = [
     },
     {
         id: 'product-3',
-        name: 'Cat Condo Tree Tower',
-        price: 64.90,
+        name: 'Padlock Key Safe Security Box',
+        price: 35.32,
+        discount: 24.65,
+        image: './img/img7.png',
+        description: [
+            {
+                title: 'Padlock type',
+                text: 'The key safe cabinet is designed w/ a shackle just like any padlock. The plus side to this type is it doesn’t need mounting! It allows you to move the key box from one location to another. Perfect for home, garage, business, office use.',
+            },
+            {
+                title: 'Keeps 5 keys',
+                text: 'The Key Safe Box provides you additional security that you’ll need for your home. It measures 3.4”L x 1.6”W x 7.2”H which offers large capacity to allow up to 5 keys to be safely stored in.',
+            },
+            {
+                title: 'Keyless design',
+                text: 'Features universal locking key storage with keyless design introducing a configurable 4-digit combination access for maximum security. It has a security standard grade level of A1 making this box an authentic and reliable key holder.',
+            },
+            {
+                title: 'Steel construction',
+                text: 'This key storage features rugged and durable heavy duty engineered steel metal alloy construction which can protect the box from hammering and other intentional tampering. Equipped w/ weather cover to increase weather resistance.',
+            },
+            {
+                title: 'Simple operation',
+                text: 'Features simple and hassle-free operation. Allows you to set your prefered 4-digit code lock by using the reset lever inside the safe. It\'s not recommend to use combination such as “A-A-A-A”, otherwise it might be easily cracked.',
+            },
+        ],
+        images: ['./img/img7-1.png', './img/img7-2.jpeg', './img/img7-3.jpeg', './img/img7-4.jpeg'],
+    },
+    {
+        id: 'product-4',
+        name: 'Metal Cash Box',
+        price: 39.99,
+        discount: 39.97,
+        image: './img/img8.png',
+        description: [
+            {
+                text: 'Durable steel construction with multiple compartment tray provides space for cash, coins and bills.',
+            },
+            {
+                text: 'Includes a removable cash tray. It\'s roomy enough to store bills, checks and documents under the tray.',
+            },
+            {
+                text: 'Durable steel construction that stands up to daily use. Privacy mechanical key lock for simplicity of use and stainless steel handle.',
+            },
+            {
+                text: 'Perfect for use in homes, schools, offices and more.',
+            },
+        ],
+        images: ['./img/img8-1.png', './img/img8-2.png', './img/img8-3.png'],
+    },
+    {
+        id: 'product-5',
+        name: 'Walking Boot',
+        price: 43.98,
+        discount: 55.97,
+        image: './img/img9.png',
+        description: [
+            {
+                text: 'Specifically designed to provide mobility, protection and pneumatic support for day-to-day activities while recovering from injury.',
+            },
+        ],
+        images: ['./img/img9-1.png', './img/img9-2.png', './img/img9-3.png'],
+    },
+    {
+        id: 'product-6',
+        name: 'Pocket Tool Pouch',
+        price: 49.95,
         discount: 69.99,
+        image: './img/img10.png',
+        description: [
+            {
+                text: 'Color: Black',
+            },
+            {
+                text: 'Material: Leather',
+            },
+            {
+                text: 'Special Features: Knife Snap, Chain Tape Thong, Metal Tape Measure Holder',
+            },
+            {
+                text: 'Power Source Type: corded-electric',
+            },
+        ],
+        images: ['./img/img10-1.png', './img/img10-2.png', './img/img10-3.png'],
+    },
+    {
+        id: 'product-7',
+        name: 'Cat Condo Tree Tower',
+        price: 69.99,
+        discount: 69.94,
         image: './img/img3.png',
         description: [
             {
@@ -87,10 +174,64 @@ export const products = [
         images: ['./img/img3-1.png', './img/img3-2.png', './img/img3-3.png'],
     },
     {
-        id: 'product-4',
+        id: 'product-8',
+        name: 'Turnout Blanket',
+        price: 79.99,
+        discount: 79.93,
+        image: './img/img11.png',
+        description: [
+            {
+                title: 'Perfect blanket for changing temperatures',
+                text: 'This medium weight turnout blanket with 200g of fill is perfect for the varied weather and tempartures between seasons! Your horse won\'t get too hot or too chilly whether he wears this during the day or overnight. Add in a 3000mm/3000mvp waterproof shell and you\'re good to go!',
+            },
+            {
+                title: 'Escape proof',
+                text: 'Double front buckle closures with quick snap closings and double cross surcingles keep the blanket from coming loose and falling off even during the most raucous rolls in the field.',
+            },
+            {
+                title: 'Plenty of range of motion',
+                text: 'Long gussets at the shoulders allow your horse\'s legs to move freely and not feel entrapped in the turnout blanket. The additional roominess of the chest area means he won\'t get sore shoulders from chafing, either.',
+            },
+            {
+                title: 'Protection from high wind',
+                text: 'A long tail flap and adjustable elastic leg straps will keep the blanket from blowing up around his rump if a strong wind kicks up.',
+            },
+            
+        ],
+        images: ['./img/img11-1.jpeg', './img/img11-2.jpeg', './img/img11-3.jpeg', './img/img11-4.jpeg', './img/img11-5.jpeg'],
+    },
+    {
+        id: 'product-9',
+        name: 'Adjustable inline skates',
+        price: 84.41,
+        discount: 95.55,
+        image: './img/img12.png',
+        description: [
+            {
+                title: 'Adjustable Size',
+                text: 'Adjustable roller skates has: size L(foot-length:216-241mm), size XL (foot-length: 252-270mm), adjust the length of boot by the push button before wearing, Please make sure to choose the correct size by checking enclosed size chart pictures.',
+            },
+            {
+                title: 'Features Upgrade',
+                text: 'The buckle & Velcro strap & lace closure system secure the feet inside the skates to enhance the fit and add additional support. Durable frame a vibration-absorbing composite frame that is interlocked with the base, keeping users more balanced by being lower to the ground.',
+            },
+            {
+                title: 'Safety & Smooth',
+                text: 'Reinforced aluminium frame, 76mm 82A wheels and ABEC 7 bearings are a good combination for rolling at a moderate speed with a little less effort due to the slightly faster bearing. enhance stability, balance and control.',
+            },
+            {
+                title: 'Comfortable',
+                text: 'Designed with Polyester Fabric Mesh, Makes the inline skate breathable and comfortable to prevent sweat smell. Great padding in the Training liner ensures comfort for any skater. The closure system adds to the overall fit.',
+            },
+            
+        ],
+        images: ['./img/img12-1.jpeg', './img/img12-2.jpeg', './img/img12-3.jpeg'],
+    },
+    {
+        id: 'product-10',
         name: 'Portable Denture Cleaner',
-        price: 98.90,
-        discount: 55.97,
+        price: 89.99,
+        discount: 109.91,
         image: './img/img4.png',
         description: [
             {
@@ -118,10 +259,10 @@ export const products = [
         images: ['./img/img4-1.png', './img/img4-2.png', './img/img4-3.png', './img/img4-4.png', './img/img4-5.png'],
     },
     {
-        id: 'product-5',
+        id: 'product-11',
         name: 'Ottoman',
         price: 119.98,
-        discount: 79.93,
+        discount: 110.89,
         image: './img/img5.png',
         description: [
             {
@@ -137,10 +278,10 @@ export const products = [
         images: ['./img/img5-1.png', './img/img5-2.png', './img/img5-3.png'],
     },
     {
-        id: 'product-6',
+        id: 'product-12',
         name: 'Water Cooler Dispenser',
         price: 148.00,
-        discount: 95.50,
+        discount: 120.88,
         image: './img/img6.png',
         description: [
             {
